@@ -2,9 +2,9 @@
 
 ## Links
 
-- [repository](https://github.com/NikolayLemehov/wallet_end)
-- [service](https://goit-wallet-back.onrender.com)
-- [docs](https://goit-wallet-back.onrender.com/api-docs)
+- [repository](https://github.com/MajorPrestige/wallet_back)
+- [service](https://walletback-production.up.railway.app)
+- [docs](https://walletback-production.up.railway.app/api-docs)
 
 ## Postman
 

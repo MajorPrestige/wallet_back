@@ -8,8 +8,6 @@ const calcBalanceAfterAndBalance = async (transactions, ownerId, user) => {
   }
 
   const addedArr = transactions.slice();
-  // const addedArr = transactions.slice(transIndex - 1);
-  // const lastRightBalance = transIndex === 0 ? 0 : transactions[transIndex - 1].balanceAfter;
 
   const result = [...addedArr].reduce((acc, it) => {
     it.balanceAfter = acc.balance + (it.type ? 1 : -1) * it.sum;
