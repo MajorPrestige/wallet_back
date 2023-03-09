@@ -9,7 +9,7 @@ const googleAuth = async (req, res) => {
     id,
   };
 
-  const token = jwt.sign(payload, SECRET_KEY, { expiresIn: '100h' });
+  const token = jwt.sign(payload, SECRET_KEY);
   await User.findByIdAndUpdate(id, { token });
 
   res.redirect(`https://majorprestige.github.io/wallet_front?token=${token}`);
