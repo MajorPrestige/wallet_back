@@ -8,5 +8,5 @@
 
 ## Postman
 
-- Файл для імпорту [тут](./assets/postman/wallet.postman_collection.json)
-- Гайд [тут](./README.postman.md)
+- Import files [this](./assets/postman/wallet.postman_collection.json)
+- Guide [this](./README.postman.md)
